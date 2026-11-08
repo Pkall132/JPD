@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JPD113 Reading Practice</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f4f6fb;
+    color: #202536;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+}
+
+header {
+    background: #172b52;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.toolbar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    min-width: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #3157a4;
+    color: white;
+    cursor: pointer;
+}
+
+article {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #0000000a;
+}
+
+h2 {
+    color: #254783;
+}
+
+.jp {
+    font-size: 21px;
+    line-height: 2.2;
+}
+
+rt {
+    color: #3157a4;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.romaji {
+    background: #f1f4fa;
+    padding: 8px;
+    border-radius: 6px;
+    color: #59677f;
+    font-size: 14px;
+}
+
+.vocab {
+    margin-top: 20px;
+    border-top: 1px dashed #aaa;
+    padding-top: 15px;
+}
+
+.vocab table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.vocab th,
+.vocab td {
+    border: 1px solid #ddd;
+    padding: 9px;
+    text-align: left;
+}
+
+.vocab th {
+    background: #eaf0ff;
+}
+
+.hide-ruby rt {
+    visibility: hidden;
+}
+
+.hide-romaji .romaji {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+@media(max-width:600px) {
+    main {
+        padding: 10px;
+    }
+
+    .jp {
+        font-size: 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>JPD113 Reading Practice 1–14</h1>
+    <p>Japanese Reading – Hiragana – Romaji – Vocabulary</p>
+</header>
+
+<main>
+
+<div class="toolbar">
+    <input
+        id="search"
+        placeholder="Tìm Reading hoặc từ tiếng Nhật..."
+    >
+
+    <button onclick="toggleRuby()">
+        Ẩn / Hiện Furigana
+    </button>
+
+    <button onclick="toggleRomaji()">
+        Ẩn / Hiện Romaji
+    </button>
+</div>
+
+<div id="readings">
+
+<!-- READING 1 -->
+
+<article>
+<h2>Reading 1</h2>
+
+<p class="jp">
+<ruby>私<rt>わたし</rt></ruby>は まいにち
+<ruby>六時<rt>ろくじ</rt></ruby>に おきます。
+</p>
+<p class="romaji">
+Watashi wa mainichi rokuji ni okimasu.
+</p>
+
+<p class="jp">
+あさごはんを たべます。
+あさごはんは パンと コーヒーです。
+</p>
+<p class="romaji">
+Asagohan o tabemasu. Asagohan wa pan to koohii desu.
+</p>
+
+<p class="jp">
+それから、
+<ruby>学校<rt>がっこう</rt></ruby>へ いきます。
+<ruby>学校<rt>がっこう</rt></ruby>は
+<ruby>七時<rt>しちじ</rt></ruby>から
+ごご <ruby>六時<rt>ろくじ</rt></ruby>までです。
+</p>
+<p class="romaji">
+Sorekara, gakkou e ikimasu.
+Gakkou wa shichiji kara gogo rokuji made desu.
+</p>
+
+<p class="jp">
+よる、きっさてんで アルバイトを します。
+</p>
+<p class="romaji">
+Yoru, kissaten de arubaito o shimasu.
+</p>
+
+<p class="jp">
+やすみは
+<ruby>土曜日<rt>どようび</rt></ruby>と
+<ruby>日曜日<rt>にちようび</rt></ruby>です。
+</p>
+<p class="romaji">
+Yasumi wa doyoubi to nichiyoubi desu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 1</h3>
+
+<table>
+<tr>
+<th>Kanji / Katakana</th>
+<th>Hiragana</th>
+<th>Nghĩa</th>
+</tr>
+
+<tr><td>私</td><td>わたし</td><td>Tôi</td></tr>
+<tr><td>毎日</td><td>まいにち</td><td>Mỗi ngày</td></tr>
+<tr><td>六時</td><td>ろくじ</td><td>6 giờ</td></tr>
+<tr><td>起きます</td><td>おきます</td><td>Thức dậy</td></tr>
+<tr><td>朝ごはん</td><td>あさごはん</td><td>Bữa sáng</td></tr>
+<tr><td>学校</td><td>がっこう</td><td>Trường học</td></tr>
+<tr><td>七時</td><td>しちじ</td><td>7 giờ</td></tr>
+<tr><td>午後</td><td>ごご</td><td>Buổi chiều</td></tr>
+<tr><td>夜</td><td>よる</td><td>Buổi tối</td></tr>
+<tr><td>喫茶店</td><td>きっさてん</td><td>Quán cà phê</td></tr>
+<tr><td>アルバイト</td><td>あるばいと</td><td>Việc làm thêm</td></tr>
+<tr><td>休み</td><td>やすみ</td><td>Ngày nghỉ</td></tr>
+<tr><td>土曜日</td><td>どようび</td><td>Thứ Bảy</td></tr>
+<tr><td>日曜日</td><td>にちようび</td><td>Chủ nhật</td></tr>
+</table>
+</div>
+</article>
+
+
+<!-- READING 2 -->
+
+<article>
+<h2>Reading 2</h2>
+
+<p class="jp">
+あしたは <ruby>土曜日<rt>どようび</rt></ruby>です。
+<ruby>学校<rt>がっこう</rt></ruby>は やすみですから、
+リンさんの うちへ いきます。
+</p>
+<p class="romaji">
+Ashita wa doyoubi desu.
+Gakkou wa yasumi desu kara, Rin-san no uchi e ikimasu.
+</p>
+
+<p class="jp">
+<ruby>十一時<rt>じゅういちじ</rt></ruby>まで
+リンさんと ゲームを します。
+<ruby>映画<rt>えいが</rt></ruby>も みます。
+</p>
+<p class="romaji">
+Juuichiji made Rin-san to geemu o shimasu.
+Eiga mo mimasu.
+</p>
+
+<p class="jp">
+ひる、<ruby>お弁当<rt>おべんとう</rt></ruby>を たべます。
+</p>
+<p class="romaji">
+Hiru, obentou o tabemasu.
+</p>
+
+<p class="jp">
+ごご バスで
+<ruby>百円<rt>ひゃくえん</rt></ruby>ショップへ いきます。
+</p>
+<p class="romaji">
+Gogo basu de hyakuen shoppu e ikimasu.
+</p>
+
+<p class="jp">
+そこで <ruby>日本<rt>にほん</rt></ruby>の
+ペンと けしゴムを かいます。
+</p>
+<p class="romaji">
+Soko de Nihon no pen to keshigomu o kaimasu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 2</h3>
+
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>明日</td><td>あした</td><td>Ngày mai</td></tr>
+<tr><td>土曜日</td><td>どようび</td><td>Thứ Bảy</td></tr>
+<tr><td>学校</td><td>がっこう</td><td>Trường học</td></tr>
+<tr><td>休み</td><td>やすみ</td><td>Nghỉ</td></tr>
+<tr><td>家</td><td>うち</td><td>Nhà</td></tr>
+<tr><td>十一時</td><td>じゅういちじ</td><td>11 giờ</td></tr>
+<tr><td>映画</td><td>えいが</td><td>Phim</td></tr>
+<tr><td>昼</td><td>ひる</td><td>Buổi trưa</td></tr>
+<tr><td>お弁当</td><td>おべんとう</td><td>Cơm hộp</td></tr>
+<tr><td>午後</td><td>ごご</td><td>Buổi chiều</td></tr>
+<tr><td>百円ショップ</td><td>ひゃくえんショップ</td><td>Cửa hàng 100 yên</td></tr>
+<tr><td>日本</td><td>にほん</td><td>Nhật Bản</td></tr>
+<tr><td>ペン</td><td>ぺん</td><td>Bút</td></tr>
+<tr><td>消しゴム</td><td>けしゴム</td><td>Cục tẩy</td></tr>
+<tr><td>買います</td><td>かいます</td><td>Mua</td></tr>
+</table>
+</div>
+</article>
+
+
+<!-- READING 3 -->
+
+<article>
+<h2>Reading 3</h2>
+
+<p class="jp">
+きょうは <ruby>日曜日<rt>にちようび</rt></ruby>です。
+</p>
+<p class="romaji">
+Kyou wa nichiyoubi desu.
+</p>
+
+<p class="jp">
+アルバイトを しませんから、
+<ruby>八時<rt>はちじ</rt></ruby>から
+<ruby>十時<rt>じゅうじ</rt></ruby>まで
+うちで ゲームを します。
+</p>
+<p class="romaji">
+Arubaito o shimasen kara,
+hachiji kara juuji made uchi de geemu o shimasu.
+</p>
+
+<p class="jp">
+ひる、<ruby>一人<rt>ひとり</rt></ruby>で たべます。
+</p>
+<p class="romaji">
+Hiru, hitori de tabemasu.
+</p>
+
+<p class="jp">
+ひるごはんは ハンバーグと
+ライスと ジュースです。
+</p>
+<p class="romaji">
+Hirugohan wa hanbaagu to raisu to juusu desu.
+</p>
+
+<p class="jp">
+ごご <ruby>図書館<rt>としょかん</rt></ruby>へ いきます。
+<ruby>図書館<rt>としょかん</rt></ruby>で
+<ruby>日本語<rt>にほんご</rt></ruby>の
+<ruby>本<rt>ほん</rt></ruby>を よみます。
+</p>
+<p class="romaji">
+Gogo toshokan e ikimasu.
+Toshokan de nihongo no hon o yomimasu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 3</h3>
+
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>今日</td><td>きょう</td><td>Hôm nay</td></tr>
+<tr><td>日曜日</td><td>にちようび</td><td>Chủ nhật</td></tr>
+<tr><td>アルバイト</td><td>あるばいと</td><td>Việc làm thêm</td></tr>
+<tr><td>八時</td><td>はちじ</td><td>8 giờ</td></tr>
+<tr><td>十時</td><td>じゅうじ</td><td>10 giờ</td></tr>
+<tr><td>家</td><td>うち</td><td>Nhà</td></tr>
+<tr><td>一人</td><td>ひとり</td><td>Một mình</td></tr>
+<tr><td>昼ごはん</td><td>ひるごはん</td><td>Bữa trưa</td></tr>
+<tr><td>図書館</td><td>としょかん</td><td>Thư viện</td></tr>
+<tr><td>日本語</td><td>にほんご</td><td>Tiếng Nhật</td></tr>
+<tr><td>本</td><td>ほん</td><td>Sách</td></tr>
+<tr><td>読みます</td><td>よみます</td><td>Đọc</td></tr>
+</table>
+</div>
+</article>
+<!-- READING 4 -->
+
+<article>
+<h2>Reading 4</h2>
+
+<p class="jp">
+この<ruby>人<rt>ひと</rt></ruby>は
+ダニエルさんです。
+ダニエルさんは
+アメリカ<ruby>人<rt>じん</rt></ruby>です。
+</p>
+<p class="romaji">
+Kono hito wa Danieru-san desu.
+Danieru-san wa Amerikajin desu.
+</p>
+
+<p class="jp">
+いま、<ruby>日本語学校<rt>にほんごがっこう</rt></ruby>で
+べんきょうします。
+</p>
+<p class="romaji">
+Ima, nihongo gakkou de benkyou shimasu.
+</p>
+
+<p class="jp">
+しゅみは テニスと すいえいです。
+</p>
+<p class="romaji">
+Shumi wa tenisu to suiei desu.
+</p>
+
+<p class="jp">
+<ruby>土曜日<rt>どようび</rt></ruby>と
+<ruby>日曜日<rt>にちようび</rt></ruby>、
+たいいくかんで テニスをします。
+</p>
+<p class="romaji">
+Doyoubi to nichiyoubi,
+taiikukan de tenisu o shimasu.
+</p>
+
+<p class="jp">
+それから、スーパーへ いきます。
+スーパーで くだものや にくを かいます。
+</p>
+<p class="romaji">
+Sorekara, suupaa e ikimasu.
+Suupaa de kudamono ya niku o kaimasu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 4</h3>
+
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>人</td><td>ひと</td><td>Người</td></tr>
+<tr><td>アメリカ人</td><td>あめりかじん</td><td>Người Mỹ</td></tr>
+<tr><td>今</td><td>いま</td><td>Bây giờ</td></tr>
+<tr><td>日本語学校</td><td>にほんごがっこう</td><td>Trường tiếng Nhật</td></tr>
+<tr><td>勉強します</td><td>べんきょうします</td><td>Học</td></tr>
+<tr><td>趣味</td><td>しゅみ</td><td>Sở thích</td></tr>
+<tr><td>テニス</td><td>てにす</td><td>Quần vợt</td></tr>
+<tr><td>水泳</td><td>すいえい</td><td>Bơi lội</td></tr>
+<tr><td>土曜日</td><td>どようび</td><td>Thứ Bảy</td></tr>
+<tr><td>日曜日</td><td>にちようび</td><td>Chủ nhật</td></tr>
+<tr><td>体育館</td><td>たいいくかん</td><td>Nhà thi đấu</td></tr>
+<tr><td>スーパー</td><td>すーぱー</td><td>Siêu thị</td></tr>
+<tr><td>果物</td><td>くだもの</td><td>Trái cây</td></tr>
+<tr><td>肉</td><td>にく</td><td>Thịt</td></tr>
+<tr><td>買います</td><td>かいます</td><td>Mua</td></tr>
+</table>
+</div>
+</article>
+
+
+<!-- READING 5 -->
+
+<article>
+<h2>Reading 5</h2>
+
+<p class="jp">
+<ruby>私<rt>わたし</rt></ruby>は マルコです。
+18<ruby>才<rt>さい</rt></ruby>です。
+</p>
+<p class="romaji">
+Watashi wa Maruko desu.
+Juuhassai desu.
+</p>
+
+<p class="jp">
+<ruby>日本語学校<rt>にほんごがっこう</rt></ruby>の
+<ruby>学生<rt>がくせい</rt></ruby>です。
+</p>
+<p class="romaji">
+Nihongo gakkou no gakusei desu.
+</p>
+
+<p class="jp">
+まいにち、
+<ruby>九時<rt>くじ</rt></ruby>から
+<ruby>十二時<rt>じゅうにじ</rt></ruby>まで
+<ruby>学校<rt>がっこう</rt></ruby>で べんきょうします。
+</p>
+<p class="romaji">
+Mainichi, kuji kara juuniji made
+gakkou de benkyou shimasu.
+</p>
+
+<p class="jp">
+それから、としょかんで
+<ruby>本<rt>ほん</rt></ruby>を よみます。
+</p>
+<p class="romaji">
+Sorekara, toshokan de hon o yomimasu.
+</p>
+
+<p class="jp">
+ごご レストランで アルバイトを します。
+</p>
+<p class="romaji">
+Gogo resutoran de arubaito o shimasu.
+</p>
+
+<p class="jp">
+アルバイトは
+<ruby>一時<rt>いちじ</rt></ruby>から
+<ruby>六時<rt>ろくじ</rt></ruby>までです。
+</p>
+<p class="romaji">
+Arubaito wa ichiji kara rokuji made desu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 5</h3>
+
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>私</td><td>わたし</td><td>Tôi</td></tr>
+<tr><td>十八才</td><td>じゅうはっさい</td><td>18 tuổi</td></tr>
+<tr><td>日本語学校</td><td>にほんごがっこう</td><td>Trường tiếng Nhật</td></tr>
+<tr><td>学生</td><td>がくせい</td><td>Học sinh / sinh viên</td></tr>
+<tr><td>毎日</td><td>まいにち</td><td>Mỗi ngày</td></tr>
+<tr><td>九時</td><td>くじ</td><td>9 giờ</td></tr>
+<tr><td>十二時</td><td>じゅうにじ</td><td>12 giờ</td></tr>
+<tr><td>学校</td><td>がっこう</td><td>Trường học</td></tr>
+<tr><td>勉強します</td><td>べんきょうします</td><td>Học</td></tr>
+<tr><td>図書館</td><td>としょかん</td><td>Thư viện</td></tr>
+<tr><td>本</td><td>ほん</td><td>Sách</td></tr>
+<tr><td>午後</td><td>ごご</td><td>Buổi chiều</td></tr>
+<tr><td>レストラン</td><td>れすとらん</td><td>Nhà hàng</td></tr>
+<tr><td>アルバイト</td><td>あるばいと</td><td>Việc làm thêm</td></tr>
+<tr><td>一時</td><td>いちじ</td><td>1 giờ</td></tr>
+<tr><td>六時</td><td>ろくじ</td><td>6 giờ</td></tr>
+</table>
+</div>
+</article>
+
+
+<!-- READING 6 -->
+
+<article>
+<h2>Reading 6</h2>
+
+<p class="jp">
+こんしゅうの
+<ruby>木曜日<rt>もくようび</rt></ruby>は
+<ruby>四月一日<rt>しがつついたち</rt></ruby>です。
+</p>
+<p class="romaji">
+Konshuu no mokuyoubi wa shigatsu tsuitachi desu.
+</p>
+
+<p class="jp">
+はるやすみですから、
+<ruby>学校<rt>がっこう</rt></ruby>へ いきません。
+</p>
+<p class="romaji">
+Haruyasumi desu kara, gakkou e ikimasen.
+</p>
+
+<p class="jp">
+<ruby>私<rt>わたし</rt></ruby>は
+シュミットさんと スーパーで
+にくや やさいや リンゴの ジュースと
+<ruby>水<rt>みず</rt></ruby>を かいます。
+</p>
+<p class="romaji">
+Watashi wa Shumitto-san to suupaa de
+niku ya yasai ya ringo no juusu to mizu o kaimasu.
+</p>
+
+<p class="jp">
+それから、
+<ruby>金曜日<rt>きんようび</rt></ruby>
+こうえんで バーベキューを します。
+</p>
+<p class="romaji">
+Sorekara, kinyoubi kouen de baabekyuu o shimasu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 6</h3>
+
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>今週</td><td>こんしゅう</td><td>Tuần này</td></tr>
+<tr><td>木曜日</td><td>もくようび</td><td>Thứ Năm</td></tr>
+<tr><td>四月一日</td><td>しがつついたち</td><td>Ngày 1 tháng 4</td></tr>
+<tr><td>春休み</td><td>はるやすみ</td><td>Kỳ nghỉ xuân</td></tr>
+<tr><td>学校</td><td>がっこう</td><td>Trường học</td></tr>
+<tr><td>シュミット</td><td>しゅみっと</td><td>Schmidt (tên người)</td></tr>
+<tr><td>スーパー</td><td>すーぱー</td><td>Siêu thị</td></tr>
+<tr><td>肉</td><td>にく</td><td>Thịt</td></tr>
+<tr><td>野菜</td><td>やさい</td><td>Rau</td></tr>
+<tr><td>リンゴ</td><td>りんご</td><td>Táo</td></tr>
+<tr><td>ジュース</td><td>じゅーす</td><td>Nước ép</td></tr>
+<tr><td>水</td><td>みず</td><td>Nước</td></tr>
+<tr><td>金曜日</td><td>きんようび</td><td>Thứ Sáu</td></tr>
+<tr><td>公園</td><td>こうえん</td><td>Công viên</td></tr>
+<tr><td>バーベキュー</td><td>ばーべきゅー</td><td>Tiệc nướng BBQ</td></tr>
+</table>
+</div>
+</article>
+
+
+<!-- READING 7 -->
+
+<article>
+<h2>Reading 7</h2>
+
+<p class="jp">
+<ruby>私<rt>わたし</rt></ruby>の
+<ruby>誕生日<rt>たんじょうび</rt></ruby>は
+<ruby>四月十八日<rt>しがつじゅうはちにち</rt></ruby>です。
+</p>
+<p class="romaji">
+Watashi no tanjoubi wa shigatsu juuhachinichi desu.
+</p>
+
+<p class="jp">
+ことし、
+<ruby>二十一才<rt>にじゅういっさい</rt></ruby>です。
+</p>
+<p class="romaji">
+Kotoshi, nijuuissai desu.
+</p>
+
+<p class="jp">
+<ruby>誕生日<rt>たんじょうび</rt></ruby>に
+デパートへ いきます。
+</p>
+<p class="romaji">
+Tanjoubi ni depaato e ikimasu.
+</p>
+
+<p class="jp">
+ズボンや Tシャツを かいます。
+</p>
+<p class="romaji">
+Zubon ya tii-shatsu o kaimasu.
+</p>
+
+<p class="jp">
+それから、きっさてんで
+ともだちと コーヒーを のみます。
+</p>
+<p class="romaji">
+Sorekara, kissaten de tomodachi to koohii o nomimasu.
+</p>
+
+<p class="jp">
+しゅみは どくしょと おんがくですから、
+<ruby>日本語<rt>にほんご</rt></ruby>の うたの CDと
+<ruby>本<rt>ほん</rt></ruby>も かいます。
+</p>
+<p class="romaji">
+Shumi wa dokusho to ongaku desu kara,
+nihongo no uta no shii-dii to hon mo kaimasu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 7</h3>
+
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>私</td><td>わたし</td><td>Tôi</td></tr>
+<tr><td>誕生日</td><td>たんじょうび</td><td>Sinh nhật</td></tr>
+<tr><td>四月十八日</td><td>しがつじゅうはちにち</td><td>Ngày 18 tháng 4</td></tr>
+<tr><td>今年</td><td>ことし</td><td>Năm nay</td></tr>
+<tr><td>二十一才</td><td>にじゅういっさい</td><td>21 tuổi</td></tr>
+<tr><td>デパート</td><td>でぱーと</td><td>Trung tâm thương mại</td></tr>
+<tr><td>ズボン</td><td>ずぼん</td><td>Quần dài</td></tr>
+<tr><td>Tシャツ</td><td>てぃーしゃつ</td><td>Áo thun</td></tr>
+<tr><td>喫茶店</td><td>きっさてん</td><td>Quán cà phê</td></tr>
+<tr><td>友達</td><td>ともだち</td><td>Bạn bè</td></tr>
+<tr><td>コーヒー</td><td>こーひー</td><td>Cà phê</td></tr>
+<tr><td>趣味</td><td>しゅみ</td><td>Sở thích</td></tr>
+<tr><td>読書</td><td>どくしょ</td><td>Đọc sách</td></tr>
+<tr><td>音楽</td><td>おんがく</td><td>Âm nhạc</td></tr>
+<tr><td>日本語</td><td>にほんご</td><td>Tiếng Nhật</td></tr>
+<tr><td>歌</td><td>うた</td><td>Bài hát</td></tr>
+<tr><td>本</td><td>ほん</td><td>Sách</td></tr>
+</table>
+</div>
+</article>
+<!-- READING 8 -->
+<article>
+<h2>Reading 8</h2>
+
+<p class="jp">
+この<ruby>人<rt>ひと</rt></ruby>は カルロスさんです。
+オーストラリア<ruby>人<rt>じん</rt></ruby>です。
+</p>
+<p class="romaji">
+Kono hito wa Karurosu-san desu.
+Oosutorariajin desu.
+</p>
+
+<p class="jp">
+<ruby>日本<rt>にほん</rt></ruby>で
+<ruby>働<rt>はたら</rt></ruby>きます。
+</p>
+<p class="romaji">
+Nihon de hatarakimasu.
+</p>
+
+<p class="jp">
+コンピューターの かいしゃで はたらきます。
+</p>
+<p class="romaji">
+Konpyuutaa no kaisha de hatarakimasu.
+</p>
+
+<p class="jp">
+かいしゃは
+<ruby>九時<rt>くじ</rt></ruby>から
+<ruby>五時<rt>ごじ</rt></ruby>までです。
+</p>
+<p class="romaji">
+Kaisha wa kuji kara goji made desu.
+</p>
+
+<p class="jp">
+よる、うちで テレビを みます。
+おんがくを ききます。
+</p>
+<p class="romaji">
+Yoru, uchi de terebi o mimasu.
+Ongaku o kikimasu.
+</p>
+
+<p class="jp">
+<ruby>十時<rt>じゅうじ</rt></ruby>に ねます。
+</p>
+<p class="romaji">
+Juuji ni nemasu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 8</h3>
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>人</td><td>ひと</td><td>Người</td></tr>
+<tr><td>オーストラリア人</td><td>おーすとらりあじん</td><td>Người Úc</td></tr>
+<tr><td>日本</td><td>にほん</td><td>Nhật Bản</td></tr>
+<tr><td>働きます</td><td>はたらきます</td><td>Làm việc</td></tr>
+<tr><td>コンピューター</td><td>こんぴゅーたー</td><td>Máy tính</td></tr>
+<tr><td>会社</td><td>かいしゃ</td><td>Công ty</td></tr>
+<tr><td>九時</td><td>くじ</td><td>9 giờ</td></tr>
+<tr><td>五時</td><td>ごじ</td><td>5 giờ</td></tr>
+<tr><td>夜</td><td>よる</td><td>Buổi tối</td></tr>
+<tr><td>家</td><td>うち</td><td>Nhà</td></tr>
+<tr><td>テレビ</td><td>てれび</td><td>Ti vi</td></tr>
+<tr><td>音楽</td><td>おんがく</td><td>Âm nhạc</td></tr>
+<tr><td>十時</td><td>じゅうじ</td><td>10 giờ</td></tr>
+<tr><td>寝ます</td><td>ねます</td><td>Đi ngủ</td></tr>
+</table>
+</div>
+</article>
+
+
+<!-- READING 9 -->
+<article>
+<h2>Reading 9</h2>
+
+<p class="jp">
+あなたは まいにち
+<ruby>何時<rt>なんじ</rt></ruby>に おきますか。
+</p>
+<p class="romaji">
+Anata wa mainichi nanji ni okimasu ka?
+</p>
+
+<p class="jp">
+<ruby>私<rt>わたし</rt></ruby>は
+<ruby>五時<rt>ごじ</rt></ruby>に おきます。
+</p>
+<p class="romaji">
+Watashi wa goji ni okimasu.
+</p>
+
+<p class="jp">
+それから、
+<ruby>三十分<rt>さんじゅっぷん</rt></ruby>くらい
+ジョギングを します。
+</p>
+<p class="romaji">
+Sorekara, sanjuppun kurai jogingu o shimasu.
+</p>
+
+<p class="jp">
+<ruby>私<rt>わたし</rt></ruby>は まいあさ、
+<ruby>何<rt>なに</rt></ruby>も たべません。
+</p>
+<p class="romaji">
+Watashi wa maiasa, nani mo tabemasen.
+</p>
+
+<p class="jp">
+ミルクと コーヒーを のみます。
+</p>
+<p class="romaji">
+Miruku to koohii o nomimasu.
+</p>
+
+<p class="jp">
+<ruby>学校<rt>がっこう</rt></ruby>は
+<ruby>八時<rt>はちじ</rt></ruby>からですから、
+いつも
+<ruby>七時五十分<rt>しちじごじゅっぷん</rt></ruby>に
+<ruby>日本語学校<rt>にほんごがっこう</rt></ruby>へ きます。
+</p>
+<p class="romaji">
+Gakkou wa hachiji kara desu kara,
+itsumo shichiji gojuppun ni
+nihongo gakkou e kimasu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 9</h3>
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>毎日</td><td>まいにち</td><td>Mỗi ngày</td></tr>
+<tr><td>何時</td><td>なんじ</td><td>Mấy giờ</td></tr>
+<tr><td>起きます</td><td>おきます</td><td>Thức dậy</td></tr>
+<tr><td>五時</td><td>ごじ</td><td>5 giờ</td></tr>
+<tr><td>三十分</td><td>さんじゅっぷん</td><td>30 phút</td></tr>
+<tr><td>ジョギング</td><td>じょぎんぐ</td><td>Chạy bộ</td></tr>
+<tr><td>毎朝</td><td>まいあさ</td><td>Mỗi buổi sáng</td></tr>
+<tr><td>何も</td><td>なにも</td><td>Không gì cả</td></tr>
+<tr><td>ミルク</td><td>みるく</td><td>Sữa</td></tr>
+<tr><td>コーヒー</td><td>こーひー</td><td>Cà phê</td></tr>
+<tr><td>学校</td><td>がっこう</td><td>Trường học</td></tr>
+<tr><td>八時</td><td>はちじ</td><td>8 giờ</td></tr>
+<tr><td>七時五十分</td><td>しちじごじゅっぷん</td><td>7 giờ 50</td></tr>
+<tr><td>日本語学校</td><td>にほんごがっこう</td><td>Trường tiếng Nhật</td></tr>
+<tr><td>来ます</td><td>きます</td><td>Đến</td></tr>
+</table>
+</div>
+</article>
+
+
+<!-- READING 10 -->
+<article>
+<h2>Reading 10</h2>
+
+<p class="jp">
+<ruby>私<rt>わたし</rt></ruby>は
+<ruby>妹<rt>いもうと</rt></ruby>が
+<ruby>一人<rt>ひとり</rt></ruby>います。
+</p>
+<p class="romaji">
+Watashi wa imouto ga hitori imasu.
+</p>
+
+<p class="jp">
+<ruby>妹<rt>いもうと</rt></ruby>は
+<ruby>八才<rt>はっさい</rt></ruby>です。
+<ruby>小学校<rt>しょうがっこう</rt></ruby>の
+<ruby>学生<rt>がくせい</rt></ruby>です。
+</p>
+<p class="romaji">
+Imouto wa hassai desu.
+Shougakkou no gakusei desu.
+</p>
+
+<p class="jp">
+<ruby>日本語<rt>にほんご</rt></ruby>が すきですが、
+<ruby>妹<rt>いもうと</rt></ruby>は
+コンピューターが すきです。
+</p>
+<p class="romaji">
+Nihongo ga suki desu ga,
+imouto wa konpyuutaa ga suki desu.
+</p>
+
+<p class="jp">
+<ruby>毎晩<rt>まいばん</rt></ruby>、
+<ruby>私<rt>わたし</rt></ruby>たちは
+いっしょに べんきょうします。
+</p>
+<p class="romaji">
+Maiban, watashitachi wa issho ni benkyou shimasu.
+</p>
+
+<p class="jp">
+それから
+<ruby>九時半<rt>くじはん</rt></ruby>
+テレビや アニメを みます。
+</p>
+<p class="romaji">
+Sorekara kujihan terebi ya anime o mimasu.
+</p>
+
+<p class="jp">
+<ruby>十一時<rt>じゅういちじ</rt></ruby>に ねます。
+<ruby>妹<rt>いもうと</rt></ruby>が だいすきです。
+</p>
+<p class="romaji">
+Juuichiji ni nemasu.
+Imouto ga daisuki desu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 10</h3>
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>妹</td><td>いもうと</td><td>Em gái</td></tr>
+<tr><td>一人</td><td>ひとり</td><td>Một người</td></tr>
+<tr><td>八才</td><td>はっさい</td><td>8 tuổi</td></tr>
+<tr><td>小学校</td><td>しょうがっこう</td><td>Trường tiểu học</td></tr>
+<tr><td>学生</td><td>がくせい</td><td>Học sinh</td></tr>
+<tr><td>日本語</td><td>にほんご</td><td>Tiếng Nhật</td></tr>
+<tr><td>好き</td><td>すき</td><td>Thích</td></tr>
+<tr><td>毎晩</td><td>まいばん</td><td>Mỗi tối</td></tr>
+<tr><td>一緒に</td><td>いっしょに</td><td>Cùng nhau</td></tr>
+<tr><td>勉強します</td><td>べんきょうします</td><td>Học</td></tr>
+<tr><td>九時半</td><td>くじはん</td><td>9 giờ rưỡi</td></tr>
+<tr><td>テレビ</td><td>てれび</td><td>Ti vi</td></tr>
+<tr><td>アニメ</td><td>あにめ</td><td>Phim hoạt hình</td></tr>
+<tr><td>十一時</td><td>じゅういちじ</td><td>11 giờ</td></tr>
+<tr><td>大好き</td><td>だいすき</td><td>Rất yêu / rất thích</td></tr>
+</table>
+</div>
+</article>
+
+
+<!-- READING 11 -->
+<article>
+<h2>Reading 11</h2>
+
+<p class="jp">
+<ruby>私<rt>わたし</rt></ruby>のうちの
+ちかくに おおきい コンビニが あります。
+</p>
+<p class="romaji">
+Watashi no uchi no chikaku ni ookii konbini ga arimasu.
+</p>
+
+<p class="jp">
+こちらで
+<ruby>何<rt>なに</rt></ruby>も ありますから、
+まいにち そこへ いきます。
+</p>
+<p class="romaji">
+Kochira de nani mo arimasu kara,
+mainichi soko e ikimasu.
+</p>
+
+<p class="jp">
+コンビニの ホットコーヒーは
+とても おいしいです。
+</p>
+<p class="romaji">
+Konbini no hotto koohii wa totemo oishii desu.
+</p>
+
+<p class="jp">
+<ruby>一杯<rt>いっぱい</rt></ruby>は
+<ruby>三百円<rt>さんびゃくえん</rt></ruby>です。
+</p>
+<p class="romaji">
+Ippai wa sanbyakuen desu.
+</p>
+
+<p class="jp">
+また、
+<ruby>土曜日<rt>どようび</rt></ruby>と
+<ruby>日曜日<rt>にちようび</rt></ruby>に
+セールが あって、
+やすい<ruby>物<rt>もの</rt></ruby>が かえます。
+</p>
+<p class="romaji">
+Mata, doyoubi to nichiyoubi ni seeru ga atte,
+yasui mono ga kaemasu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 11</h3>
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>家</td><td>うち</td><td>Nhà</td></tr>
+<tr><td>近く</td><td>ちかく</td><td>Gần</td></tr>
+<tr><td>大きい</td><td>おおきい</td><td>To, lớn</td></tr>
+<tr><td>コンビニ</td><td>こんびに</td><td>Cửa hàng tiện lợi</td></tr>
+<tr><td>毎日</td><td>まいにち</td><td>Mỗi ngày</td></tr>
+<tr><td>ホットコーヒー</td><td>ほっとこーひー</td><td>Cà phê nóng</td></tr>
+<tr><td>とても</td><td>とても</td><td>Rất</td></tr>
+<tr><td>美味しい</td><td>おいしい</td><td>Ngon</td></tr>
+<tr><td>一杯</td><td>いっぱい</td><td>Một cốc</td></tr>
+<tr><td>三百円</td><td>さんびゃくえん</td><td>300 yên</td></tr>
+<tr><td>土曜日</td><td>どようび</td><td>Thứ Bảy</td></tr>
+<tr><td>日曜日</td><td>にちようび</td><td>Chủ nhật</td></tr>
+<tr><td>セール</td><td>せーる</td><td>Đợt giảm giá</td></tr>
+<tr><td>安い</td><td>やすい</td><td>Rẻ</td></tr>
+<tr><td>物</td><td>もの</td><td>Đồ vật, hàng hóa</td></tr>
+<tr><td>買えます</td><td>かえます</td><td>Có thể mua</td></tr>
+</table>
+</div>
+</article>
+<!-- READING 12 -->
+<article>
+<h2>Reading 12</h2>
+
+<p class="jp">
+あなたは
+<ruby>自然<rt>しぜん</rt></ruby>が すきですか。
+</p>
+<p class="romaji">
+Anata wa shizen ga suki desu ka?
+</p>
+
+<p class="jp">
+<ruby>私<rt>わたし</rt></ruby>は
+<ruby>月<rt>つき</rt></ruby>を みることや
+<ruby>木<rt>き</rt></ruby>を うえることが
+<ruby>大好<rt>だいす</rt></ruby>きです。
+</p>
+<p class="romaji">
+Watashi wa tsuki o miru koto ya
+ki o ueru koto ga daisuki desu.
+</p>
+
+<p class="jp">
+まいつきの
+<ruby>十五日<rt>じゅうごにち</rt></ruby>に
+いつも テレスコープで
+<ruby>月<rt>つき</rt></ruby>を みます。
+</p>
+<p class="romaji">
+Maitsuki no juugonichi ni itsumo
+teresukoopu de tsuki o mimasu.
+</p>
+
+<p class="jp">
+また、
+<ruby>自然<rt>しぜん</rt></ruby>についての
+テレビプログラムも よく みます。
+</p>
+<p class="romaji">
+Mata, shizen ni tsuite no
+terebi puroguramu mo yoku mimasu.
+</p>
+
+<p class="jp">
+まいしゅうの
+<ruby>火曜日<rt>かようび</rt></ruby>と
+<ruby>水曜日<rt>すいようび</rt></ruby>
+ともだちと こうえんに いきます。
+</p>
+<p class="romaji">
+Maishuu no kayoubi to suiyoubi
+tomodachi to kouen ni ikimasu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 12</h3>
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>自然</td><td>しぜん</td><td>Thiên nhiên</td></tr>
+<tr><td>月</td><td>つき</td><td>Mặt trăng</td></tr>
+<tr><td>見る</td><td>みる</td><td>Nhìn, ngắm</td></tr>
+<tr><td>木</td><td>き</td><td>Cây</td></tr>
+<tr><td>植える</td><td>うえる</td><td>Trồng</td></tr>
+<tr><td>大好き</td><td>だいすき</td><td>Rất thích</td></tr>
+<tr><td>毎月</td><td>まいつき</td><td>Mỗi tháng</td></tr>
+<tr><td>十五日</td><td>じゅうごにち</td><td>Ngày 15</td></tr>
+<tr><td>テレスコープ</td><td>てれすこーぷ</td><td>Kính thiên văn</td></tr>
+<tr><td>自然</td><td>しぜん</td><td>Thiên nhiên</td></tr>
+<tr><td>テレビプログラム</td><td>てれびぷろぐらむ</td><td>Chương trình truyền hình</td></tr>
+<tr><td>毎週</td><td>まいしゅう</td><td>Mỗi tuần</td></tr>
+<tr><td>火曜日</td><td>かようび</td><td>Thứ Ba</td></tr>
+<tr><td>水曜日</td><td>すいようび</td><td>Thứ Tư</td></tr>
+<tr><td>友達</td><td>ともだち</td><td>Bạn bè</td></tr>
+<tr><td>公園</td><td>こうえん</td><td>Công viên</td></tr>
+</table>
+</div>
+</article>
+
+
+<!-- READING 13 -->
+<article>
+<h2>Reading 13</h2>
+
+<p class="jp">
+きのう デパートで マンゴを
+<ruby>四つ<rt>よっつ</rt></ruby>と
+ザクロを <ruby>三つ<rt>みっつ</rt></ruby>
+<ruby>買<rt>か</rt></ruby>いました。
+</p>
+<p class="romaji">
+Kinou depaato de mango o yottsu to
+zakuro o mittsu kaimashita.
+</p>
+
+<p class="jp">
+<ruby>全部<rt>ぜんぶ</rt></ruby>で
+<ruby>六百円<rt>ろっぴゃくえん</rt></ruby>でした。
+</p>
+<p class="romaji">
+Zenbu de roppyaku-en deshita.
+</p>
+
+<p class="jp">
+それから、あねと
+<ruby>二人<rt>ふたり</rt></ruby>
+<ruby>食<rt>た</rt></ruby>べました。
+</p>
+<p class="romaji">
+Sorekara, ane to futari tabemashita.
+</p>
+
+<p class="jp">
+マンゴは おいしかったですが、
+ザクロは <ruby>少<rt>すこ</rt></ruby>し
+すっぱいでした。
+</p>
+<p class="romaji">
+Mango wa oishikatta desu ga,
+zakuro wa sukoshi suppai deshita.
+</p>
+
+<p class="jp">
+<ruby>私<rt>わたし</rt></ruby>は
+<ruby>一人<rt>ひとり</rt></ruby>で
+ザクロを <ruby>二つ<rt>ふたつ</rt></ruby>
+<ruby>食<rt>た</rt></ruby>べました。
+おいしかったです。
+</p>
+<p class="romaji">
+Watashi wa hitori de zakuro o futatsu tabemashita.
+Oishikatta desu.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 13</h3>
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>昨日</td><td>きのう</td><td>Hôm qua</td></tr>
+<tr><td>デパート</td><td>でぱーと</td><td>Trung tâm thương mại</td></tr>
+<tr><td>四つ</td><td>よっつ</td><td>Bốn cái/quả</td></tr>
+<tr><td>三つ</td><td>みっつ</td><td>Ba cái/quả</td></tr>
+<tr><td>買いました</td><td>かいました</td><td>Đã mua</td></tr>
+<tr><td>全部</td><td>ぜんぶ</td><td>Tất cả</td></tr>
+<tr><td>六百円</td><td>ろっぴゃくえん</td><td>600 yên</td></tr>
+<tr><td>姉</td><td>あね</td><td>Chị gái</td></tr>
+<tr><td>二人</td><td>ふたり</td><td>Hai người</td></tr>
+<tr><td>食べました</td><td>たべました</td><td>Đã ăn</td></tr>
+<tr><td>美味しかった</td><td>おいしかった</td><td>Đã ngon</td></tr>
+<tr><td>少し</td><td>すこし</td><td>Một chút</td></tr>
+<tr><td>酸っぱい</td><td>すっぱい</td><td>Chua</td></tr>
+<tr><td>一人</td><td>ひとり</td><td>Một mình</td></tr>
+<tr><td>二つ</td><td>ふたつ</td><td>Hai cái/quả</td></tr>
+</table>
+</div>
+</article>
+
+
+<!-- READING 14 -->
+<article>
+<h2>Reading 14</h2>
+
+<p class="jp">
+きょうは
+<ruby>九月十日<rt>くがつとおか</rt></ruby>
+<ruby>月曜日<rt>げつようび</rt></ruby>です。
+</p>
+<p class="romaji">
+Kyou wa kugatsu tooka getsuyoubi desu.
+</p>
+
+<p class="jp">
+やすみですから、
+ショッピングに いきます。
+</p>
+<p class="romaji">
+Yasumi desu kara, shoppingu ni ikimasu.
+</p>
+
+<p class="jp">
+<ruby>八時<rt>はちじ</rt></ruby>に
+うちを でます。
+</p>
+<p class="romaji">
+Hachiji ni uchi o demasu.
+</p>
+
+<p class="jp">
+バスに のって、
+<ruby>四十五分<rt>よんじゅうごふん</rt></ruby>
+かかりました。
+</p>
+<p class="romaji">
+Basu ni notte, yonjuugofun kakarimashita.
+</p>
+
+<p class="jp">
+そこで くつや かばんなどを かいました。
+</p>
+<p class="romaji">
+Soko de kutsu ya kaban nado o kaimashita.
+</p>
+
+<p class="jp">
+それから レストランで
+てんぷらを たべました。
+ジュースも のみました。
+</p>
+<p class="romaji">
+Sorekara resutoran de tenpura o tabemashita.
+Juusu mo nomimashita.
+</p>
+
+<p class="jp">
+<ruby>二千円<rt>にせんえん</rt></ruby>でした。
+</p>
+<p class="romaji">
+Nisen-en deshita.
+</p>
+
+<div class="vocab">
+<h3>📚 Từ vựng Reading 14</h3>
+<table>
+<tr><th>Kanji / Katakana</th><th>Hiragana</th><th>Nghĩa</th></tr>
+<tr><td>今日</td><td>きょう</td><td>Hôm nay</td></tr>
+<tr><td>九月十日</td><td>くがつとおか</td><td>Ngày 10 tháng 9</td></tr>
+<tr><td>月曜日</td><td>げつようび</td><td>Thứ Hai</td></tr>
+<tr><td>休み</td><td>やすみ</td><td>Ngày nghỉ</td></tr>
+<tr><td>ショッピング</td><td>しょっぴんぐ</td><td>Mua sắm</td></tr>
+<tr><td>八時</td><td>はちじ</td><td>8 giờ</td></tr>
+<tr><td>家</td><td>うち</td><td>Nhà</td></tr>
+<tr><td>出ます</td><td>でます</td><td>Rời khỏi, đi ra</td></tr>
+<tr><td>バス</td><td>ばす</td><td>Xe buýt</td></tr>
+<tr><td>乗って</td><td>のって</td><td>Lên xe</td></tr>
+<tr><td>四十五分</td><td>よんじゅうごふん</td><td>45 phút</td></tr>
+<tr><td>靴</td><td>くつ</td><td>Giày</td></tr>
+<tr><td>かばん</td><td>かばん</td><td>Túi xách</td></tr>
+<tr><td>レストラン</td><td>れすとらん</td><td>Nhà hàng</td></tr>
+<tr><td>天ぷら</td><td>てんぷら</td><td>Tempura</td></tr>
+<tr><td>ジュース</td><td>じゅーす</td><td>Nước ép</td></tr>
+<tr><td>二千円</td><td>にせんえん</td><td>2.000 yên</td></tr>
+</table>
+</div>
+</article>
+
+</div>
+
+</main>
+
+<script>
+// Ẩn / hiện cách đọc Hiragana phía trên Kanji
+function toggleRuby() {
+    document.querySelector('main').classList.toggle('hide-ruby');
+}
+
+// Ẩn / hiện Romaji bên dưới câu tiếng Nhật
+function toggleRomaji() {
+    document.querySelector('main').classList.toggle('hide-romaji');
+}
+
+// Tìm kiếm Reading hoặc từ tiếng Nhật
+document.getElementById('search').addEventListener('input', function() {
+    let keyword = this.value.toLowerCase().trim();
+
+    document.querySelectorAll('article').forEach(function(article) {
+        let content = article.innerText.toLowerCase();
+
+        if (content.includes(keyword)) {
+            article.classList.remove('hidden');
+        } else {
+            article.classList.add('hidden');
+        }
+    });
+});
+</script>
+
+</body>
+</html>
